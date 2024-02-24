@@ -10,8 +10,9 @@ To start the project, install the necessary dependencies by running `npm i` in y
 
 To run this project, you need to add your own NewsAPI key:
 
-1. Create a `.env.local` file in the root directory of the project.
-2. Add the following line to the file, replacing `Your_API_KEY` with your actual API key:
+1. Generate your own API key by making your account from [NewsAPI](https://newsapi.org/).
+2. Create a `.env.local` file in the root directory of the project.
+3. Add the following line to the file, replacing `Your_API_KEY` with your actual API key:
 
 ```shellscript
 REACT_APP_NEWS_API="Your_API_KEY"
